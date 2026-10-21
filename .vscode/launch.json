@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TempatParkir01",
+            "request": "launch",
+            "mainClass": "TempatParkir01",
+            "projectName": "daspro-jobsheet7-_616533b5"
+        },
+        {
+            "type": "java",
             "name": "PenjualanTiketBioskop01",
             "request": "launch",
             "mainClass": "PenjualanTiketBioskop01",
