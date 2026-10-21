@@ -5,6 +5,7 @@ public class SiakadFor01 {
         Scanner input = new Scanner (System.in);
 
         double nilai, tertinggi = 0, terendah = 100;
+        int lulus = 0, tidakLulus = 0;
 
         //STRUKTUR PERULANGAN FOR BATAS KONDISI SESUAI JUMLAH MAHASISWA YAITU 10
          for (int i = 1; i <= 10; i++) {
@@ -16,9 +17,18 @@ public class SiakadFor01 {
             if (nilai < terendah) {
                 terendah = nilai;
             }
+
+            //SOAL 4. HITUNG KELULUSAN (BATAS MIN.60)
+            if (nilai >= 60) {
+            lulus++;
+            } else {
+            tidakLulus++;
+            }
          }
 
          System.out.println("Nilai tertinggi: " + tertinggi);
-         System.out.println("Nilai terendah: " + terendah);
+         System.out.println("Nilai terendah : " + terendah);
+         System.out.println("Jumlah mahasiuswa lulus    : " + lulus);
+         System.out.println("Jumlah mahasiswa tidak lulus   : " + tidakLulus);
     }
 }
