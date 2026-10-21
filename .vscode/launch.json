@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PenjualanTiketBioskop01",
+            "request": "launch",
+            "mainClass": "PenjualanTiketBioskop01",
+            "projectName": "daspro-jobsheet7-_616533b5"
+        },
+        {
+            "type": "java",
             "name": "KafeDoWhile01",
             "request": "launch",
             "mainClass": "KafeDoWhile01",
